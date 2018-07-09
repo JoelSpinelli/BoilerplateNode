@@ -16,30 +16,36 @@ Boilerplate básico para projetos Node
 ## Testando
 Navegador / Postman
 * GET /
-URL: ```
+URL:
+```
   http://localhost:3000/
 ```
-Response JSON: ```
+Response JSON:
+```
   {
     Hello: "Hello"
   }
 ```
 
 * GET /rota/{path}
-URL: ```
+URL:
+```
   http://localhost:3000/rota/Teste
 ```
-Response JSON: ```
+Response JSON:
+```
   {
     entrada: "Teste"
   }
 ```
 
 * POST /
-URL: ```
+URL:
+```
   http://localhost:3000/
 ```
-BODY: ```
+BODY:
+```
   {
     "valor1": "valor 1",
     "valor2": "valor 2", 
@@ -54,7 +60,8 @@ BODY: ```
     }
   }
 ```
-Response JSON: ```
+Response JSON:
+```
   {
     "Solicitacao": "post",
     "Entradas": {
