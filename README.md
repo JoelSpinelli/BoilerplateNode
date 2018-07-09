@@ -1,45 +1,45 @@
-### Boilerplate Node
+# Boilerplate Node
 Boilerplate básico para projetos Node
 
-#####Instalar
+## Instalar
 
 * Intalando as dependências do Projeto
-```shell
+```
   npm install
 ```
 
 * Executando o servidor
-```shell
+```
   nodemon app
 ```
 
-#####Testando
+## Testando
 Navegador / Postman
 * GET /
-URL: ```shell
+URL: ```
   http://localhost:3000/
 ```
-Response JSON: ```shell
+Response JSON: ```
   {
     Hello: "Hello"
   }
 ```
 
 * GET /rota/{path}
-URL: ```shell
+URL: ```
   http://localhost:3000/rota/Teste
 ```
-Response JSON: ```shell
+Response JSON: ```
   {
     entrada: "Teste"
   }
 ```
 
 * POST /
-URL: ```shell
+URL: ```
   http://localhost:3000/
 ```
-BODY: ```shell
+BODY: ```
   {
     "valor1": "valor 1",
     "valor2": "valor 2", 
@@ -54,7 +54,7 @@ BODY: ```shell
     }
   }
 ```
-Response JSON: ```shell
+Response JSON: ```
   {
     "Solicitacao": "post",
     "Entradas": {
