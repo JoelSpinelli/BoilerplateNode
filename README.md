@@ -19,6 +19,7 @@ Boilerplate básico para projetos Node
 ## Testando
 Navegador / Postman
 * GET /
+
 URL:
 ```
   http://localhost:3000/
@@ -31,6 +32,7 @@ Response JSON:
 ```
 
 * GET /rota/{path}
+
 URL:
 ```
   http://localhost:3000/rota/Teste
@@ -43,6 +45,7 @@ Response JSON:
 ```
 
 * POST /
+
 URL:
 ```
   http://localhost:3000/
