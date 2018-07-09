@@ -4,7 +4,7 @@ Boilerplate básico para projetos Node
 ## Instalar
 
 * Instalando Node 
-  Clique no [link] (https://nodejs.org/en/download/) para instalar o Node
+  Clique no [link](https://nodejs.org/en/download/) para instalar o Node
 
 * Intalando as dependências do Projeto
 ```
