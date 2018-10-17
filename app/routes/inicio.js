@@ -1,6 +1,6 @@
 module.exports = function(app) {
     
-    app.get('/', (req, res) => { res.json(paginaInicial) });
+    app.get('/', (req, res) => res.json(paginaInicial) );
 
     app.post('/', (req, res) => { 
         res.json({
